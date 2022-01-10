@@ -1,7 +1,7 @@
 # Authors: Rick Jellema & Rick van Druten
 # Location: Hogeschool Arnhem en Nijmegen
-# Goal: Docker agent for Jenkins Elixir Job
-# This Dockerfile is used to build an image containing Erlang, Elixir and Mix.
+# Goal: Docker agent for Jenkins Java-Elixir Job
+# This Dockerfile is used to build an image containing Erlang, Elixir, Mix and JDK version 12, 15 and 17.
 # From Erlang runs on Debian:Buster 10.
 FROM erlang:22
 MAINTAINER Rody Middelkoop <rody.middelkoop@gmail.com>
